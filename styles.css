@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Muli, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  background: #e0dddd;
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  float: left;
+  justify-content: center;
+}
+
+.gallery .image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.desc {
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+}
+
+.desc p {
+  max-width: 350px;
+  text-align: center;
+}
+
+.button .play a {
+  text-decoration: none;
+  color: black;
+  font-family: Muli, sans-serif;
+  font-size: 14px;
+}
+
+button {
+  border: none;
+  padding: 0 20px;
+  border-radius: 20px;
+  max-width: 500px;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6 {
+  margin: auto;
+  padding-top: 1px;
+  height: 30px;
+  line-height: 25px;
+  width: 30px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.desc-more1,
+.desc-more2,
+.desc-more3,
+.desc-more4,
+.desc-more5,
+.desc-more6 {
+  display: none;
+}
+
+.description1.show-more .desc-more1 {
+  display: inline;
+}
+
+.description1.show-more .dots1 {
+  display: none;
+}
+
+.description2.show-more .desc-more2 {
+  display: inline;
+}
+
+.description2.show-more .dots2 {
+  display: none;
+}
+
+.description3.show-more .desc-more3 {
+  display: inline;
+}
+
+.description3.show-more .dots3 {
+  display: none;
+}
+
+.description4.show-more .desc-more4 {
+  display: inline;
+}
+
+.description4.show-more .dots4 {
+  display: none;
+}
+
+.description5.show-more .desc-more5 {
+  display: inline;
+}
+
+.description5.show-more .dots5 {
+  display: none;
+}
+
+.description6.show-more .desc-more6 {
+  display: inline;
+}
+
+.description6.show-more .dots6 {
+  display: none;
+}
